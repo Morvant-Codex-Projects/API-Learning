@@ -1,159 +1,146 @@
 # Postman API Collections Lab Assignment Objective
+
 Use Postman to explore real-world APIs by:
 
-Creating multiple collections with organized GET requests
+- Creating multiple collections with organized GET requests
 
-Using collection variables for base URLs
+- Using collection variables for base URLs
 
-Practicing request formatting and response inspection
+- Practicing request formatting and response inspection
 
-(Bonus) Working with an API that requires an API key and configuring authentication
+- (Bonus) Working with an API that requires an API key and configuring authentication
 
-Requirements
-Part 1: Create 5 Collections with GET Requests
-Choose 5 public APIs that support GET requests. Example APIs include: Pokémon API, SpaceX API, Cat Facts, The Dog API, OpenWeatherMap, etc.
+## Requirements
 
-For each API:
+## Part 1: Create 5 Collections with GET Requests
 
-Create a new Postman Collection and name it after the API.
+1. Choose 5 public APIs that support GET requests. Example APIs include: Pokémon API, SpaceX API, Cat Facts, The Dog API, OpenWeatherMap, etc.
 
-Set the base URL as a collection variable (e.g., {{baseUrl}}) and use it in all requests.
+2. For each API:
 
-Create at least 2 GET requests per collection:
+- Create a new Postman Collection and name it after the API.
 
-One general endpoint (e.g., /list, /all)
+- Set the base URL as a collection variable (e.g., {{baseUrl}}) and use it in all requests.
 
-One specific endpoint (e.g., /item/1, /pokemon/pikachu)
+- Create at least 2 GET requests per collection:
 
-Confirm that:
+  - One general endpoint (e.g., /list, /all)
 
-Each request returns a valid response (HTTP 200)
+  - One specific endpoint (e.g., /item/1, /pokemon/pikachu)
 
-You can see meaningful data in the response body
+3. Confirm that:
 
-You understand the headers and status codes involved
+- Each request returns a valid response (HTTP 200)
 
-Example: Pokémon API
-Collection Name: Pokémon API
+- You can see meaningful data in the response body
 
-Variable: baseUrl = https://pokeapi.co/api/v2
+- You understand the headers and status codes involved
 
-Requests:
+## Example: Pokémon API
 
-GET {{baseUrl}}/pokemon
+- Collection Name: Pokémon API
 
-GET {{baseUrl}}/pokemon/charizard
+- Variable: baseUrl = https://pokeapi.co/api/v2
 
-Bonus Challenge: Authenticated API Collection
-Create one additional collection that uses an API requiring an API key.
+- Requests:
 
-Examples:
+  - GET {{baseUrl}}/pokemon
 
-OpenWeatherMap
+  - GET {{baseUrl}}/pokemon/charizard
 
-TheDogAPI
+## Bonus Challenge: Authenticated API Collection
 
-NewsAPI
+- Create one additional collection that uses an API requiring an API key.
 
-Steps:
+### Examples:
 
-Set the base URL as a collection variable.
+- OpenWeatherMap
 
-Store the API key as another collection variable (e.g., {{apiKey}}).
+- TheDogAPI
 
-Configure Authorization or Headers at the collection level:
+- NewsAPI
 
-Example: Add a header Authorization: Bearer {{apiKey}}
+#### Steps:
 
-Or include the key in the query string: ?api_key={{apiKey}}
+1. Set the base URL as a collection variable.
 
-Create at least two authenticated GET requests.
+2. Store the API key as another collection variable (e.g., {{apiKey}}).
 
-Submission Instructions
-Export all five (or six, if doing the bonus) collections from Postman.
+3. Configure Authorization or Headers at the collection level:
 
-Submit a .zip folder containing:
+    - Example: Add a header Authorization: Bearer {{apiKey}}
 
-All exported collections
+    - Or include the key in the query string: ?api_key={{apiKey}}
 
-A README.md or .txt file that includes:
+4. Create at least two authenticated GET requests.
 
-The name of each API used
+## Submission Instructions
 
-A brief description of what each API does
+1. Export all five (or six, if doing the bonus) collections from Postman.
 
-For the bonus: how you configured authentication
+2. Submit a .zip folder containing:
 
-Grading Rubric
-Task
+    - All exported collections
 
-Points
+    - A README.md or .txt file that includes:
 
-5 Collections created
+      - The name of each API used
 
-25
+      - A brief description of what each API does
 
-At least 2 working GET requests per API
+      - For the bonus: how you configured authentication
 
-25
+## Grading Rubric
 
-Uses {{baseUrl}} variable correctly
+|### Task                                      |Points|
+|----------------------------------------------|------|
+|5 Collections created                         |  25  |
+|At least 2 working GET requests per API       |  25  |
+|Uses {{baseUrl}} variable correctly           |  15  |
+|Responses successfully retrieved and readable |  15  |
+|Collections exported and submitted correctly  |  10  |
+|Bonus: Auth API configured securely           | +10  |
 
-15
+## Public API Suggestions
 
-Responses successfully retrieved and readable
-
-15
-
-Collections exported and submitted correctly
-
-10
-
-Bonus: Auth API configured securely
-
-+10
-
-Public API Suggestions
 API Name
 
 Base URL
 
 Authentication
 
-PokeAPI
+1. PokeAPI
 
-https://pokeapi.co/api/v2
-
-No
-
-SpaceX API
-
-https://api.spacexdata.com/v4
+[https://pokeapi.co/api/v2]
 
 No
 
-Cat Facts
+2. SpaceX API
 
-https://catfact.ninja
+[https://api.spacexdata.com/v4]
 
 No
 
-The Dog API
+1. Cat Facts
 
-https://api.thedogapi.com/v1
+[https://catfact.ninja]
 
-Yes
+No
 
-OpenWeather
+4. The Dog API
 
-https://api.openweathermap.org
-
-Yes
-
-NewsAPI
-
-https://newsapi.org/v2
+[https://api.thedogapi.com/v1]
 
 Yes
 
+5. OpenWeather
 
+[https://api.openweathermap.org]
+
+Yes
+
+6. NewsAPI
+
+[https://newsapi.org/v2]
+
+Yes
