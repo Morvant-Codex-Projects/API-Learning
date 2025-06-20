@@ -52,7 +52,7 @@ Use Postman to explore real-world APIs by:
 
 - Create one additional collection that uses an API requiring an API key.
 
-### Examples:
+## Examples:
 
 - OpenWeatherMap
 
@@ -60,7 +60,7 @@ Use Postman to explore real-world APIs by:
 
 - NewsAPI
 
-#### Steps:
+## Steps:
 
 1. Set the base URL as a collection variable.
 
@@ -92,7 +92,7 @@ Use Postman to explore real-world APIs by:
 
 ## Grading Rubric
 
-|### Task                                      |Points|
+|Task                                      |Points|
 |----------------------------------------------|------|
 |5 Collections created                         |  25  |
 |At least 2 working GET requests per API       |  25  |
@@ -103,44 +103,11 @@ Use Postman to explore real-world APIs by:
 
 ## Public API Suggestions
 
-API Name
-
-Base URL
-
-Authentication
-
-1. PokeAPI
-
-[https://pokeapi.co/api/v2]
-
-No
-
-2. SpaceX API
-
-[https://api.spacexdata.com/v4]
-
-No
-
-1. Cat Facts
-
-[https://catfact.ninja]
-
-No
-
-4. The Dog API
-
-[https://api.thedogapi.com/v1]
-
-Yes
-
-5. OpenWeather
-
-[https://api.openweathermap.org]
-
-Yes
-
-6. NewsAPI
-
-[https://newsapi.org/v2]
-
-Yes
+|API Name       |Base URL                         |Authentication |
+|---------------|---------------------------------|---------------|
+|PokeAPI        | https://pokeapi.co/api/v2       |No             |
+|SpaceX API     | https://api.spacexdata.com/v4   |No             |
+|Cat Facts      | https://catfact.ninja           |No             |
+|The Dog API    | https://api.thedogapi.com/v1    |Yes            |
+|OpenWeather    | https://api.openweathermap.org  |Yes            |
+|NewsAPI        | https://newsapi.org/v2          |Yes            |
