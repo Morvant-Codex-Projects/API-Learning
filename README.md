@@ -111,3 +111,16 @@ Use Postman to explore real-world APIs by:
 |The Dog API    | https://api.thedogapi.com/v1    |Yes            |
 |OpenWeather    | https://api.openweathermap.org  |Yes            |
 |NewsAPI        | https://newsapi.org/v2          |Yes            |
+
+
+
+## Public API Used
+
+|API Name       |Base URL                         |Authentication |
+|---------------|---------------------------------|---------------|
+|PokeAPI        | https://pokeapi.co/api/v2       |No             |
+|SpaceX API     | https://api.spacexdata.com/v4   |No             |
+|DragonBallZ    | http://dragonball-api.com       |No             |
+|Jelly Belly    | https://jellybellywikiapi.onrender.com/api  |No |
+|Star Wars      | https://swapi.dev/api           |Yes            |
+|NewsAPI        | https://newsapi.org/v2          |Yes            |
